@@ -13,4 +13,5 @@ TARGET_LINK_LIBRARIES(pFrontEstimateX
    m
    pthread
    henrik_anneal
+   ufield
 )
