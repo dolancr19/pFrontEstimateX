@@ -9,9 +9,9 @@ ADD_EXECUTABLE(pFrontEstimateX ${SRC})
    
 TARGET_LINK_LIBRARIES(pFrontEstimateX
    ${MOOS_LIBRARIES}
+   ufield
    mbutil
    m
    pthread
    henrik_anneal
-   ufield
 )
